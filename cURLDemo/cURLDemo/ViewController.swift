@@ -12,7 +12,7 @@ class ViewController: UIViewController {
         config.protocolClasses?.insert(MyURLProtocol.self, at: 0)
         let session = URLSession(configuration: config)
         let dataTask = session.dataTask(with: request) { (data, response, error) in
-            print("---------------- ", data)
+            print("---------------- ", request.cURLCommand)
         }
         dataTask.resume()
     }
