@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'LittleLeaf'
-    s.version      = '1.0.0'
+    s.version      = '0.0.1'
     s.summary      = 'a curl demo'
     s.homepage     = 'https://github.com/ChaselAn/LittleLeaf'
     s.license      = 'MIT'
