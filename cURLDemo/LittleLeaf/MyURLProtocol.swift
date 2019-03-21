@@ -3,7 +3,7 @@ import UIKit
 public class MyURLProtocol: URLProtocol, URLSessionTaskDelegate {
 
     override public class func canInit(with request: URLRequest) -> Bool {
-        print("----- ", request.url?.absoluteString)
+//        print("----- ", request.url?.absoluteString)
         return false
     }
 
